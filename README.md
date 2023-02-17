@@ -3,7 +3,9 @@ HyperionDev software developer bootcamp task to create a sales inventory manager
 This program simulates a shoe stores inventory and allows a user to interact with it. 
 
 ## Running the Program
-This program can be downloaded from GitHub and run through the command line with;
+This program is written entirely in python and requires a valid python environment to run, preferably python 3 or above.
+It provides only a text based command line interface, so requires a terminal to run.
+It can be downloaded from GitHub and run through the command line with;
     
 ```
 python inventory.py
@@ -36,6 +38,16 @@ Here the user can enter the number corresponding the the menu option they desire
 * Get the total value of the available stock per item. 
 * Create a new sale item if it has excess stock. 
 * Save the inventory to a text file so it can be opened and edited again. 
+
+The inventory itself is organised and displayed in a table;
+
+```
+Country         Code       Product              Cost     Quantity
+--------------- ---------- -------------------- -------- ----------
+South Africa    SKU44386   Air Max 90            2300.00         20
+China           SKU90000   Jordan 1              3200.00         50
+Vietnam         SKU63221   Blazer                1700.00         19
+```
 
 
 ## Credits
